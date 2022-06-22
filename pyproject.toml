@@ -6,11 +6,12 @@ authors = []
 
 [tool.poetry.dependencies]
 python = "^3.10"
+dask = {extras = ["array", "dataframe", "diagnostics"], version = "^2022.6.0"}
 
 [tool.poetry.dev-dependencies]
 jupyterlab = "^3.4.3"
 jupyterlab-lsp = "^3.10.1"
-python-lsp-server = "^1.4.1"
+python-lsp-server = {extras = ["all"], version = "^1.4.1"}
 python-lsp-black = "^1.2.1"
 pytest = "^7.1.2"
 black = {extras = ["jupyter"], version = "^22.3.0"}

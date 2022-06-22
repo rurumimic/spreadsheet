@@ -1,5 +1,10 @@
 # Spreadsheet
 
+- [Open Data](data/README.md)
+  - 서울시 세종문화회관 공연 및 전시 정보
+
+---
+
 ## Run
 
 ```bash
@@ -23,7 +28,6 @@ Jupyter Lab Toolbar → Settings → Advanced Settings Editor → Jupyterlab Cod
     "preferences": {
         "default_formatter": {
             "python": "black",
-            "r": "formatR"
         }
     },
     "black": {
@@ -31,6 +35,7 @@ Jupyter Lab Toolbar → Settings → Advanced Settings Editor → Jupyterlab Cod
         "string_normalization": true
     },
     "formatOnSave": true,
+    "suppressFormatterErrors": false
 }
 ```
 
