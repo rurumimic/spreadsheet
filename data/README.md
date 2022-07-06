@@ -1,12 +1,19 @@
-# Open Data
+# Data
+
+## Sample Data
+
+- fruits.csv
+- fruits.txt
+
+## Open Data
 
 ### 서울시 세종문화회관 공연 및 전시 정보
 
 - [서울시 세종문화회관 공연 및 전시 정보](http://data.seoul.go.kr/dataList/OA-2708/S/1/datasetView.do) by 세종문화회관, 서울 열린데이터 광장, CC BY
 - Origin Size: 69MB
 - Sampled Data: `sejongpac_performs.csv`
-  - Size: 9.8MB
-  - 2044 Rows
+  - Size: 8.1MB
+  - 1 Header + 1799 Rows
   - 20210101 ~ This year
 
 | No  | 출력명            | 출력설명      |
